@@ -32,12 +32,11 @@ hr {
 body {
     height: 100vh;
     width: 100%;
-    font-size: 15px;
     font-family: 'Whitney', Helvetica, Arial, sans-serif;
 }
 
 header {
-    height: 100px;
+    height: 11%;
     display: flex;
     justify-content: space-around;
     align-content: center;
@@ -110,7 +109,7 @@ footer {
 }
 
 .container-sm {
-    width: 70%;
+    width: 68%;
     margin: 0 auto;
 }
 
@@ -125,7 +124,7 @@ footer {
     justify-content: center;
     align-items: center;
     color: white;
-    padding: 30px 57px 0px 57px;
+    padding: 68px 57px 0px 57px;
 }
 
 .titolo {
