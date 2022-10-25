@@ -1,0 +1,192 @@
+/** regole */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+hr {
+    background-color: white;
+}
+
+.padding-vertical-20 {
+    padding: 20px;
+}
+
+.padding-vertical-mix {
+    padding: 20px 35px 20px 35px;
+}
+
+/** colori di background */
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-grey {
+    background-color: gray;
+}
+
+
+
+body {
+    /*  height: 100vh;
+    width: 100%; */
+    font-size: 15px;
+    font-family: 'Whitney', Helvetica, Arial, sans-serif;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(49, 97, 224, 255);
+}
+
+footer {
+    background-color: black;
+}
+
+.row {
+    margin-top: 30px;
+    width: 80%;
+    height: 30%;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+}
+
+.col-logo {
+    height: 30px;
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-style: dashed;
+}
+
+.col-logo h3 {
+    margin-left: 15px;
+}
+
+.col-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.col-menu ul {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    border-style: dashed;
+}
+
+.col-login {
+    height: 30px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    border-style: dashed;
+}
+
+.col-login .button {
+    margin: 0 auto;
+    height: 26px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+}
+
+/** main */
+.container-sm {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.row-sm {
+    width: 100%;
+    display: flex;
+}
+
+.col-25 {
+    height: 50px;
+    width: 25%;
+    background-color: orange;
+    border: 1px solid black;
+}
+
+.col-25-footer {
+    height: 250px;
+    width: 25%;
+    background-color: orange;
+    border: 1px solid black;
+}
+
+.col-30 {
+    background-color: cyan;
+    border: 1px solid white;
+    height: 250px;
+    width: 30%;
+}
+
+.col-40 {
+    height: 300px;
+    width: 40%;
+    background-color: pink;
+    border: 1px solid black;
+}
+
+.col-50 {
+    height: 50px;
+    width: 50%;
+    background-color: orange;
+    border: 1px solid black;
+}
+
+.col-60 {
+    height: 300px;
+    width: 60%;
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+.col-70 {
+    background-color: burlywood;
+    border: 1px solid white;
+    height: 250px;
+    width: 70%;
+}
+
+.col-100 {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid black;
+    height: 300px;
+    background-color: palevioletred;
+
+}
+
+.column-bar {
+    width: 80%;
+    margin: 0 auto;
+    background-color: blueviolet;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column-bar p {
+    margin-left: 2%;
+}
+
+.column-bar button {
+    margin-right: 2%;
+}
