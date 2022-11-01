@@ -9,8 +9,12 @@ hr {
     background-color: white;
 }
 
-.padding-vertical-20 {
+.padding-vertical-80 {
     padding: 83px;
+}
+
+.padding-vertical-20{
+    padding: 20px;
 }
 
 .padding-vertical-mix {
@@ -28,7 +32,7 @@ hr {
 }
 
 
-
+/*? visuale video corretta a 1537 x 1149  */
 body {
     height: 100vh;
     width: 100%;
@@ -36,7 +40,6 @@ body {
 }
 
 header {
-    height: 11%;
     display: flex;
     justify-content: space-around;
     align-content: center;
@@ -109,7 +112,7 @@ footer {
 }
 
 .container-sm {
-    width: 68%;
+    width: 57%;
     margin: 0 auto;
 }
 
@@ -196,7 +199,8 @@ footer {
 
 .col-40 {
     width: 40%;
-    padding: 2% 15% 4% 0%;
+    padding: 2% 14% 4% 0%;
+    margin-left: -5%;
 
     /* display: flex;
     flex-wrap: wrap;
@@ -208,12 +212,22 @@ footer {
     border: 1px solid black;*/
 }
 
+.col-40b {
+    width: 40%;
+    margin-left: -6%;
+}
+
 .titolo-40,
 .parag-40 {
     width: 76%;
     padding: 0% 13% 0% 0%;
     line-height: 224%;
     font-weight: 700;
+}
+
+.col-paddx {
+    padding: 0% 0% 0% 17%;
+    margin-right: -17%;
 }
 
 
@@ -248,7 +262,17 @@ footer {
 .col-100 {
     width: 100%;
     margin: 0 auto;
-    height: 388px;
+    text-align: center;
+    /* height: 388px; */
+}
+
+/* .titolo-100,
+.parag-100 {
+
+} */
+
+.image-100{
+    background-size: cover;
 }
 
 .column-bar {
