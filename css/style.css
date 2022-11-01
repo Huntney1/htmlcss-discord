@@ -195,11 +195,14 @@ footer {
 }
 
 .col-40 {
-    height: 300px;
     width: 40%;
+    text-align: left;
+    /* height: 300px; 
     background-color: pink;
-    border: 1px solid black;
+    border: 1px solid black;*/
 }
+
+
 
 .col-50 {
     height: 50px;
@@ -209,10 +212,14 @@ footer {
 }
 
 .col-60 {
-    height: 300px;
     width: 60%;
-    background-color: lightblue;
-    border: 1px solid black;
+    /* background-color: lightblue;
+    border: 1px solid black; 
+    height: 300px; */
+}
+
+.col-60 .image-60{
+    background-size: cover;
 }
 
 .col-70 {
