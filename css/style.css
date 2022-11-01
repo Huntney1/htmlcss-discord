@@ -10,7 +10,7 @@ hr {
 }
 
 .padding-vertical-20 {
-    padding: 20px;
+    padding: 83px;
 }
 
 .padding-vertical-mix {
@@ -146,7 +146,7 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
-    
+
 }
 
 /* .download {
@@ -196,12 +196,25 @@ footer {
 
 .col-40 {
     width: 40%;
-    text-align: left;
+    padding: 2% 15% 4% 0%;
+
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; */
+
     /* height: 300px; 
     background-color: pink;
     border: 1px solid black;*/
 }
 
+.titolo-40,
+.parag-40 {
+    width: 76%;
+    padding: 0% 13% 0% 0%;
+    line-height: 224%;
+    font-weight: 700;
+}
 
 
 .col-50 {
@@ -218,9 +231,12 @@ footer {
     height: 300px; */
 }
 
-.col-60 .image-60{
+.col-60 .image-60 {
     background-size: cover;
+    display: flex;
+    justify-content: center;
 }
+
 
 .col-70 {
     background-color: burlywood;
