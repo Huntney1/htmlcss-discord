@@ -275,6 +275,10 @@ footer {
     background-size: cover;
 }
 
+.image-100 img{
+    width: 100%;
+}
+
 .column-bar {
     width: 80%;
     margin: 0 auto;
