@@ -32,7 +32,8 @@ hr {
 }
 
 
-/*? visuale video corretta a 1537 x 1149  */
+/*? visuale video corretta a 1200 x 659  */
+
 body {
     height: 100vh;
     width: 100%;
@@ -120,6 +121,8 @@ footer {
 .row-sm {
     width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .paragraph {
@@ -201,17 +204,8 @@ footer {
 
 .col-40 {
     width: 40%;
-    padding: 2% 14% 4% 0%;
-    margin-left: -5%;
-
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; */
-
-    /* height: 300px; 
-    background-color: pink;
-    border: 1px solid black;*/
+    margin: 6% 0% 6%;
+    padding: 0% 4% 0%;
 }
 
 .col-40b {
@@ -221,15 +215,20 @@ footer {
 
 .titolo-40,
 .parag-40 {
-    width: 76%;
-    padding: 0% 13% 0% 0%;
-    line-height: 224%;
+    width: 22rem;
+    padding: 3% 28% 4% 0%;
+    line-height: 1.55rem;
     font-weight: 700;
+}
+
+
+.titolo-40 h1 {
+    line-height: 2.3rem;
 }
 
 .col-paddx {
     padding: 0% 0% 0% 17%;
-    margin-right: -17%;
+   
 }
 
 
@@ -245,6 +244,10 @@ footer {
     /* background-color: lightblue;
     border: 1px solid black; 
     height: 300px; */
+}
+
+.image-60 img {
+    width: 100%;
 }
 
 .col-60 .image-60 {
@@ -263,15 +266,20 @@ footer {
 
 .col-100 {
     width: 100%;
-    margin: 0 auto;
     text-align: center;
-    /* height: 388px; */
+    
 }
 
-/* .titolo-100,
-.parag-100 {
-
+/* .row-avventura {
+   text-align: center;
 } */
+
+.col-avventura h2{
+    margin: 0% 0% 0% 0%;
+   
+}
+
+
 
 .image-100 {
     background-size: cover;
