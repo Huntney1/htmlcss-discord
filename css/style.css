@@ -13,7 +13,7 @@ hr {
     padding: 83px;
 }
 
-.padding-vertical-20{
+.padding-vertical-20 {
     padding: 20px;
 }
 
@@ -40,6 +40,7 @@ body {
 }
 
 header {
+    height: 3rem;
     display: flex;
     justify-content: space-around;
     align-content: center;
@@ -52,7 +53,7 @@ footer {
 }
 
 .row {
-    width: 85%;
+    width: 90%;
     display: flex;
     align-items: center;
 }
@@ -112,8 +113,8 @@ footer {
 }
 
 .container-sm {
-    width: 57%;
-    margin: 0 auto;
+    width: 100%;
+    padding: 5% 15% 12% 20%;
 }
 
 .row-sm {
@@ -125,9 +126,10 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
     align-items: center;
     color: white;
-    padding: 68px 57px 0px 57px;
+
 }
 
 .titolo {
@@ -271,11 +273,11 @@ footer {
 
 } */
 
-.image-100{
+.image-100 {
     background-size: cover;
 }
 
-.image-100 img{
+.image-100 img {
     width: 100%;
 }
 
